@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+
+spring:
+  webflux:
+    base-path: /api
+  data:
+    cassandra:
+      keyspace-name: bookings
+      contact-points: 127.0.0.1
+      cassandra.port: 9042
+      local-datacenter: datacenter1
